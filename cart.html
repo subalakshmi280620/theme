@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Market</title>
+    <link rel="stylesheet" href="cart.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1 text-white">Thememarket</span>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active  fw-bold" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="home nav-link text-white fw-bold" href="themes.html">Themes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="templates.html">Templates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="about us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="signin.html"><i class='bxr  bxs-user-circle'
+                                style='color:#23ba39'></i> </a>
+
+                    </li>
+                    <!-- Button trigger modal -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html"><i class='bxr  bxs-cart' style='color:#23ba39'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="image p-5">
+            <h1 class="text-white text-center pt-5">We'd Love to Hear From You</h1>
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="d-flex flex-wrap justify-content-evenly bg-white p-2 mt-3  border border-0 rounded-3"
+                    style="width:40%">
+                    <h4 class="mt-3"><i class='bxr  bx-search' style='color:#020a03'></i> </h4>
+                    <input type="" class="border border-0" style="width:50%"
+                        placeholder="Search for Wordpress, E commerce">
+                    <button type="button" class="btn text-white p-1 rounded-3 text-center"
+                        style="width:20%">Search</button>
+                </div>
+            </div>
+        </div>
+        <hr class="m-5">
+    </div>
+
+    <div class="container">
+        <h1 class="save bg-secondary p-3">Shopping Cart</h1>
+
+        <div class="cart-section">
+
+            <!-- LEFT - CART -->
+            <div class="cart-box">
+
+                <div class="cart-header">
+                    <button class="btn continue">Continue Shopping</button>
+                    <button class="save  empty-btn bg-white rounded-3" id="emptyCart">Empty Cart</button>
+                </div>
+
+                <div id="cartItems"></div>
+
+            </div>
+
+            <!-- RIGHT - SUMMARY -->
+            <div class="summary">
+                <h2>Your Cart Total</h2>
+                <div class="total" id="totalPrice">US$ 0</div>
+                <p class="saving" id="savingText">Total Saving $0</p>
+                <a href="#" class="checkout-btn">Secure Checkout</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer container mt-4 p-4">
+        <div class="d-flex justify-content-evenly flex-wrap ">
+            <div class="text-white">
+                <h2 class="navbar-brand">ThemeMarket</h2>
+                <p>All Items</p>
+                <p>Wordpress Themes</p>
+                <p>HTML Templates</p>
+                <p>UI Templates</p>
+                <p>Plugins</p>
+            </div>
+            <div class="text-white">
+                <div class="d-flex flex-wrap ">
+                    <div>
+                        <p class="fw-bold text-decoration-underline">Company</p>
+                        <p>About</p>
+                        <p>careers</p>
+                        <p>Contact</p>
+                        <p>Press</p>
+                        <p>Blog</p>
+                    </div>
+                    <div class="ps-5">
+                        <p class="fw-bold text-decoration-underline">Support</p>
+                        <p>Help Center</p>
+                        <p>Documentation</p>
+                        <p>Forums</p>
+                        <p>Contact Support</p>
+                    </div>
+                    <div class="ps-5">
+                        <p class="fw-bold text-decoration-underline">Legal</p>
+                        <p>Terms of Service</p>
+                        <p>Privacy Policy</p>
+                        <p>License Agreement</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="text-white">
+        <p class="text-white text-center fw-bold pt-3">&copy; 2025 ThemeMarket. All rights reserved.</p>
+    </div>
+    </section>
+    <script src="cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

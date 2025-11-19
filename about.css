@@ -1,0 +1,38 @@
+body{
+    margin:0 auto;
+}
+.navbar{
+    background-color:#431A97 !important;
+}
+.nav-item a{
+    color:gray;
+}
+.home{
+     text-decoration: underline !important;
+}
+.navbar-brand{
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn{
+    background-color: #76C01D !important;
+}
+.image{
+    background-image: url(images/b62cd5225851605.Y3JvcCw1NzUzLDQ1MDAsMTI4LDA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:650px;
+}
+.save{
+    color:rgb(14, 14, 82);
+}
+.team{
+    background-color: rgb(15, 15, 90);
+}
+.start{
+    background-color: rgb(18, 18, 110);
+}
+.footer{
+    background-color: #431A97;
+}

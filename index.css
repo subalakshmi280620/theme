@@ -1,0 +1,158 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(209, 221, 228) !important;
+}
+
+.navbar {
+    background-color: #431A97;
+}
+
+.nav-item a {
+    color: gray;
+}
+
+.home {
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.premium {
+    background-color: rgb(28, 28, 170);
+    border: 3px solid gray;
+    animation: slide-down 3s alternate infinite;
+}
+
+@keyframes slide-down {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(0.6);
+    }
+}
+
+.faster {
+    background-image: linear-gradient(to right, #431A97, blueviolet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    background-color: #76C01D !important;
+}
+
+.meals {
+    animation: slide 4s linear infinite;
+}
+
+@keyframes slide {
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.food {
+    animation: slide-up-down 2s alternate infinite;
+}
+@keyframes slide-up-down{
+    0%{
+        transform:translateY(0);
+    }
+   100%{
+        transform:translateY(-30PX);
+    }
+}
+.hero{
+    animation:bounce-up-down 2s alternate infinite;
+}
+@keyframes bounce-up-down{
+    0%{
+        transform:translateY(0);
+    }
+   100%{
+        transform:translateY(-50PX);
+    }
+}
+.customer{
+    background: linear-gradient(to right, #431A97, blueviolet);
+}
+.word{
+    border:1px solid grey;
+}
+.word:hover{
+    border:2px solid green;
+    transform:translateY(-20px);
+}
+.agency:hover{
+    transform:scale(1.1);
+}
+.save{
+    color:rgb(26, 26, 89);
+}
+.cart:hover{
+    background: linear-gradient(to right, #431A97, purple);
+}
+.save:hover{
+    background: linear-gradient(to right, #431A97, purple);
+}
+.browse{
+    color:darkblue;
+}
+.toggle{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle-container {
+  position: relative;
+  width: 350px;
+  height: 60px;
+  background: #dcdcdc;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  position: absolute;
+  height: 50px;
+  width: 170px;
+  background: #7ac943;
+  border-radius: 40px;
+  left: 5px; /* Start at Week */
+  transition: all 0.35s ease-in-out;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-btn {
+  width: 50%;
+  height: 50px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10;
+  color: #2e4153;
+}
+
+.toggle-btn.active {
+  color: white;
+}
+.footer{
+    background-color: #431A97;
+}
+.update{
+    background-color: rgb(9, 9, 53);
+}

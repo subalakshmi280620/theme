@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(209, 221, 228) !important;
+}
+
+.navbar {
+    background-color: #431A97 !important;
+}
+
+.nav-item a {
+    color: gray;
+}
+
+.home {
+    text-decoration: underline !important;
+}
+
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn {
+    background-color: #76C01D !important;
+}
+
+.theme {
+    background-image: linear-gradient(to right,#431A97, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.save{
+    color:rgb(12, 12, 42);
+}
+.agency:hover{
+    transform: scaleX(1.1);
+}
+.cart:hover{
+    background: linear-gradient(to right, #431A97, purple);
+}
+.browse{
+    color:darkblue;
+}
+.footer{
+    background-color: #431A97;
+}
+.update{
+    background-color: rgb(9, 9, 53);
+}
+.customer{
+    background: linear-gradient(to right, blue, #431A97 );
+}

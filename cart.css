@@ -1,0 +1,212 @@
+
+
+.navbar {
+    background-color: #431A97 !important;
+}
+
+.nav-item a {
+    color: gray;
+}
+
+.home {
+    text-decoration: underline !important;
+}
+
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn {
+    background-color: #76C01D !important;
+}
+
+.image {
+    background-image: url(images/b62cd5225851605.Y3JvcCw1NzUzLDQ1MDAsMTI4LDA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.save {
+    color: rgb(10, 10, 61);
+}
+
+.team {
+    background-color: rgb(15, 15, 90);
+}
+
+.start {
+    background-color: rgb(18, 18, 110);
+}
+
+.footer {
+    background-color: #431A97;
+}
+
+.num {
+    background-color: red !important;
+    border-radius: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #1c3553;
+    margin-bottom: 20px;
+}
+
+.cart-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* LEFT CARD */
+.cart-box {
+    flex: 1;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.cart-header {
+    background: #3b3b3b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.continue {
+    background: #61c324;
+    color: #fff;
+}
+
+.empty-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+/* CART ITEMS */
+.cart-item {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+    width: 120px;
+    border-radius: 6px;
+}
+
+.item-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.item-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.license {
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.qty-box button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.qty-num {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.remove {
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* SUMMARY CARD */
+.summary {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.summary h2 {
+    margin-bottom: 15px;
+}
+
+.total {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.saving {
+    color: green;
+    font-weight: bold;
+}
+
+.checkout-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #61c324;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
